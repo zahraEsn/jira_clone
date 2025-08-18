@@ -1,9 +1,8 @@
-import React from 'react'
+import SignUpCard from "@/features/auth/components/sign-up-card"
+import React from "react"
 
 function SignInPage() {
-	return (
-		<div>SignInPage</div>
-	)
+  return <SignUpCard />
 }
 
 export default SignInPage
