@@ -139,6 +139,17 @@ function SignUpCard() {
             Login with Github
           </Button>
         </CardContent>
+        <div className="px-7">
+          <DottedSeparator />
+        </div>
+        <CardContent className="flex justify-center items-center p-7">
+          <p>
+            Already have an account?
+            <Link href="/sign-in">
+              <span className="text-blue-700">&nbsp;Sign In</span>
+            </Link>
+          </p>
+        </CardContent>
       </Card>
     </>
   )
